@@ -2,6 +2,8 @@
 
 > A lightning-fast, cross-platform command line tool to download YouTube videos and audio with smart format selection, playlist support, and bundled ffmpeg.
 
+![Downtube GIF](assets/downtube.gif)
+
 
 ## ✨ Features
 
@@ -17,7 +19,7 @@
 <details>
 <summary>Click to expand installation instructions</summary>
 
-### From npm (Recommended)
+### From npm (as a package)
 
 ```bash
 npm install -g downtube-cli
@@ -27,11 +29,12 @@ downtube
 ### From Source
 
 ```bash
-git clone https://github.com/ahegazy/downtube-cli.git
+git clone https://github.com/ahegazy/downtube.git
 cd downtube
 npm install
-npm run build
 npm link  # makes 'downtube' available globally
+or
+npm run start
 ```
 
 ### Prerequisites
@@ -149,7 +152,7 @@ downtube --help
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/downtube-cli.git
+git clone https://github.com/yourusername/downtube.git
 cd downtube
 
 # Install dependencies

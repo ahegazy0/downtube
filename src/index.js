@@ -16,6 +16,24 @@ const pkg = require('../package.json');
 
 const program = new Command();
 
+console.log(`                                                                       
+ ▄▄▄▄▄                                   ▄▄▄▄▄▄▄▄            ▄▄                 
+ ██▀▀▀██                                 ▀▀▀██▀▀▀            ██                 
+ ██    ██   ▄████▄  ██      ██ ██▄████▄     ██     ██    ██  ██▄███▄    ▄████▄  
+ ██    ██  ██▀  ▀██ ▀█  ██  █▀ ██▀   ██     ██     ██    ██  ██▀  ▀██  ██▄▄▄▄██ 
+ ██    ██  ██    ██  ██▄██▄██  ██    ██     ██     ██    ██  ██    ██  ██▀▀▀▀▀▀ 
+ ██▄▄▄██   ▀██▄▄██▀  ▀██  ██▀  ██    ██     ██     ██▄▄▄███  ███▄▄██▀  ▀██▄▄▄▄█ 
+ ▀▀▀▀▀       ▀▀▀▀     ▀▀  ▀▀   ▀▀    ▀▀     ▀▀      ▀▀▀▀ ▀▀  ▀▀ ▀▀▀      ▀▀▀▀▀  
+                    
+            #Author: Abdulrhman Hegazy
+
+            #Repo : https://github.com/ahegazy0/downtube.git
+
+            #Downtube - A tool to download content(audio, video) from YouTube.
+`)
+
+
+
 program
     .name(pkg.name)
     .description(pkg.description)
