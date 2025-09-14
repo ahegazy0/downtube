@@ -1,5 +1,5 @@
 {
-  "name": "downtube-cli",
+  "name": "@ahegazy0/downtube-cli",
   "type": "module",
   "version": "1.0.0",
   "description": "Fast YouTube video and audio downloader CLI tool",
@@ -49,5 +49,8 @@
     "progress": "^2.0.3",
     "winston": "^3.17.0",
     "youtube-search-api": "^2.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
