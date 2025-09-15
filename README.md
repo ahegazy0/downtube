@@ -29,7 +29,7 @@ downtube
 ### From Source
 
 ```bash
-git clone https://github.com/ahegazy/downtube.git
+git clone https://github.com/ahegazy0/downtube.git
 cd downtube
 npm install
 npm link  # makes 'downtube' available globally
@@ -102,9 +102,6 @@ downtube -u "https://youtube.com/watch?v=ABCD1234" -o ~/Downloads/videos
 
 # Download with verbose logging
 downtube -u "https://youtube.com/watch?v=ABCD1234" -v
-
-# Show help
-downtube --help
 ```
 
 </details>
